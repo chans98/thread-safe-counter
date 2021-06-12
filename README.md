@@ -1,7 +1,7 @@
 # thread-safe-counter
 
 
-project #2 thread-safe-counter
+project #2 thread-safe-counter, comparison semaphore and mutex
 
 Semaphore: It prevents multiple processes or threads from accessing data from shared resources, such as critical sections, etc.
 (At least one sync destination)
