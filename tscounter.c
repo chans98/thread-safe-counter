@@ -158,7 +158,6 @@ void *count(void *arg){
 
     pthread_mutex_lock(&mutex);
 
-    //======== critical section =============
     cnt=0;
     for (i = 0; i <10; i++)
     {
@@ -166,7 +165,6 @@ void *count(void *arg){
         cnt++;
         usleep(1);
     }
-    //========= critical section ============
     pthread_mutex_unlock(&mutex);
 }
 
